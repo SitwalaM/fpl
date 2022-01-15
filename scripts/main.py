@@ -26,8 +26,8 @@ player_variation["number_of_games"] = player_variation.team.map(ouput_df_1.set_i
 
 #save CSV files
 datestr = dt.datetime.today().strftime("%Y%m%d")
-slim_elements_df.to_csv("../data/main_fpl_{}.csv".format())
-player_variation.to_csv("../data/player_variation_{}.csv".format())
+slim_elements_df.to_csv("../data/main_fpl_{}.csv".format(datestr))
+player_variation.to_csv("../data/player_variation_{}.csv".format(datestr))
 
 
 
