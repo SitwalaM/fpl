@@ -8,7 +8,7 @@ Insights to help FPL managers make transfer decisions using the FPL API and xG d
 
 [Link to tableau story](https://public.tableau.com/app/profile/sitwala.mundia/viz/FPLInsightGW1-GW1920212022Season/Story1)
 
- ![Alt](/volatility.png "Title")
+ ![Alt](images/volatility.png "Title")
 ## Deployment
 
 To use this project.
@@ -48,6 +48,5 @@ Any additional information goes here
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
  
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
     
