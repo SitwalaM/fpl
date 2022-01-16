@@ -8,7 +8,7 @@ Insights to help FPL managers make transfer decisions using the FPL API and xG d
 
 [Link to tableau story](https://public.tableau.com/app/profile/sitwala.mundia/viz/FPLInsightGW1-GW1920212022Season/Story1)
 
- ![Alt](images/volatility.png "Title")
+ ![Alt](images/volatility.PNG)
 ## Deployment
 
 To use this project.
