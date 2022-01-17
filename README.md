@@ -8,12 +8,13 @@ Insights to help FPL managers make transfer decisions using the FPL API and xG d
 
 [Link to tableau story](https://public.tableau.com/app/profile/sitwala.mundia/viz/FPLInsightGW1-GW1920212022Season/Story1)
 
- ![Alt](/volatility.png "Title")
+ ![](images/volatility.PNG)
+
 ## Deployment
 
 To use this project.
 * Clone repo
-* Python scripts are in the scripts folder
+* Python scripts are in the [scripts folder](https://github.com/SitwalaM/fpl/tree/main/scripts)
 * Install enviromnment dependencies in the folder  using
 
 ```bash
@@ -24,10 +25,8 @@ To get the latest FPL data, run main.py file using your IDE or
 ```bash
   python3 main.py
 ```
-The csv files used for the insights will be in the data folder.
+The csv files used for the insights will be in the [data folder](https://github.com/SitwalaM/fpl/tree/main/data). Note that you have certain variables available to you in the module for fixture difficulty rating and the xG data.
 
-
-  
 ## Badges
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
@@ -35,19 +34,13 @@ The csv files used for the insights will be in the data folder.
 ## Authors
 
 - [@SitwalaM](https://github.com/SitwalaM)
-
-
-
-## Appendix
-
-Any additional information goes here
-
   
 ## Acknowledgements
 
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [Detailed guide to FPL endpoints](https://medium.com/@frenzelts/fantasy-premier-league-api-endpoints-a-detailed-guide-acbd5598eb19)
+ - [Code examples for python FPL data](https://towardsdatascience.com/fantasy-premier-league-value-analysis-python-tutorial-using-the-fpl-api-8031edfe9910)
+ - [understat to FPL ID MAP](https://github.com/ChrisMusson/Football-Datasets)
+ - [FPL Dev Discord](https://discord.gg/rEuX54nz)
  
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
     
