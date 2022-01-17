@@ -25,7 +25,7 @@ To get the latest FPL data, run main.py file using your IDE or
 ```bash
   python3 main.py
 ```
-The csv files used for the insights will be in the [data folder](https://github.com/SitwalaM/fpl/tree/main/data).
+The csv files used for the insights will be in the [data folder](https://github.com/SitwalaM/fpl/tree/main/data). Note that you have certain variables available to you in the module for fixture difficulty rating and the xG data.
 
 ## Badges
 
