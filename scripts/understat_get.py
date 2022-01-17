@@ -1,10 +1,9 @@
-
 #gets xG data from the understat site
 
 import requests
 import pandas as pd
 import datetime as dt
-
+from fpl_import import get_current_gameweek
 
 def get_understat_players(season="2021", full_season = True, n_last_matches = "4"):
     # pulls understat FPL data and returns dataframe
@@ -46,8 +45,9 @@ def get_understat_players(season="2021", full_season = True, n_last_matches = "4
     
     return xg_df
 
+gameweek = get_current_gameweek()
 datestr = dt.datetime.today().strftime("%Y%m%d")
 data = get_understat_players(season="2021", full_season = True, n_last_matches = "4")
-data.to_csv("data/undestat_full_{}.csv".format(datestr))
+data.to_csv("../data/undestat_full_gw{}_{}.csv".format(int(gameweek),datestr))
 
 
