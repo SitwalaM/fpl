@@ -15,7 +15,7 @@ Insights to help FPL managers make transfer decisions using the FPL API and xG d
 To use this project.
 * Clone repo
 * Python scripts are in the [scripts folder](https://github.com/SitwalaM/fpl/tree/main/scripts)
-* Install enviromnment dependencies in the folder  using
+* Install environment dependencies in the folder  using
 
 ```bash
   pip install -r requirements.txt 
