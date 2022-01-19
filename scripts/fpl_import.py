@@ -29,7 +29,7 @@ def combine_player_teams(raw_json, min_minutes = 1):
     # cut some of the info in the elements df
     slim_elements_df = elements_df[["id",'second_name','team','element_type','selected_by_percent',
                                    'now_cost','minutes','transfers_in','value_season','total_points',
-                                   'ict_index', "web_name"]].copy()
+                                   'ict_index', "web_name", "form"]].copy()
 
     # get positions from the elements_types dataframe
     slim_elements_df['position'] = slim_elements_df.element_type.map(elements_types_df.set_index('id').singular_name)
@@ -39,6 +39,7 @@ def combine_player_teams(raw_json, min_minutes = 1):
 
     # make sure value columns are float
     slim_elements_df['value'] = slim_elements_df.copy().value_season.astype(float)
+    slim_elements_df['form'] = slim_elements_df.copy().form.astype(float)
 
     #filter minimum minutes for players
     slim_elements_df = slim_elements_df.loc[slim_elements_df.minutes >= min_minutes]
