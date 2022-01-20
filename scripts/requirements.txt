@@ -43,6 +43,7 @@ scipy==1.7.3
 seaborn==0.11.2
 six==1.16.0
 stack-data==0.1.4
+tabulate==0.8.9
 tomli==1.2.3
 tornado==6.1
 traitlets==5.1.1
