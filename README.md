@@ -9,6 +9,11 @@ Insights to help FPL managers make transfer decisions using the FPL API and xG d
 [Link to tableau story](https://public.tableau.com/app/profile/sitwala.mundia/viz/FPLInsightGW1-GW1920212022Season/Story1)
 
  ![](images/volatility.PNG)
+ 
+ ## Notebooks
+ 
+ [EDA Notebook](https://github.com/SitwalaM/fpl/blob/main/notebooks/fpl_eda.ipynb)
+ 
 
 ## Deployment
 
