@@ -40,7 +40,7 @@ The csv files used for the insights will be in the [data folder](https://github.
 
 - [@SitwalaM](https://github.com/SitwalaM)
   
-## Acknowledgements
+## Acknowledgements/ References
 
  - [Detailed guide to FPL endpoints](https://medium.com/@frenzelts/fantasy-premier-league-api-endpoints-a-detailed-guide-acbd5598eb19)
  - [Code examples for python FPL data](https://towardsdatascience.com/fantasy-premier-league-value-analysis-python-tutorial-using-the-fpl-api-8031edfe9910)
