@@ -27,7 +27,7 @@ We can also look at the top in form players.
 
 ## Dimensionality Reduction Using Kernel PCA
 
-A struggle managers often face is trying to factor in several metrics to rate a player. Here, we attempt to use dimensionality reduction on four feature from the player data: form, value, total_points and ict_index. [ict_index](https://www.premierleague.com/news/65567) (influency,creativity and threat) is used to assess players who have potential to score points in FPL. Kernel PCA was used with 4 components and polynomial kernel for the fit.
+A struggle managers often face is trying to factor in several metrics to rate a player. Here, we attempt to use dimensionality reduction on four feature from the player data: form, value, total_points and ict_index. [ict_index](https://www.premierleague.com/news/65567) (influence,creativity and threat) is used to assess players who have potential to score points in FPL. Kernel PCA was used with 4 components and polynomial kernel for the fit.
 
 ![variability](https://github.com/SitwalaM/fpl/blob/main/images/variance_ratios.png)
 
