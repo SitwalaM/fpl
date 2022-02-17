@@ -14,6 +14,24 @@ Insights to help FPL managers make transfer decisions using the FPL API and xG d
  
  [EDA Notebook](https://github.com/SitwalaM/fpl/blob/main/notebooks/fpl_eda.ipynb)
  
+ ### Total Points Distribution
+ 
+This can help with choosing a formation. Here we can clearly see that forwards are not performing as well this season.
+![total points distribution](https://github.com/SitwalaM/fpl/blob/main/images/points_violin.png)
+
+### Player Form
+
+We can also look at the top in form players.
+
+![form](https://github.com/SitwalaM/fpl/blob/main/images/form_top5.png)
+
+## Dimensionality Reduction Using Kernel PCA
+
+A struggle managers often face is trying to factor in several metrics to rate a player. Here, we attempt to use dimensionality reduction on four feature from the player data: form, value, total_points and ict_index. [ict_index](https://www.premierleague.com/news/65567) (influency,creativity and threat) is used to assess players who have potential to score points in FPL. Kernel PCA was used with 4 components and polynomial kernel for the fit.
+
+![variability](https://github.com/SitwalaM/fpl/blob/main/images/variance_ratios.png)
+
+![PCA Plot](https://github.com/SitwalaM/fpl/blob/main/images/pca_plot.png)
 
 ## Deployment
 
