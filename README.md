@@ -54,7 +54,7 @@ The csv files used for the insights will be in the [data folder](https://github.
 
 ## Authors
 
-- [@SitwalaM](https://github.com/SitwalaM)
+- [SitwalaM](https://github.com/SitwalaM)
   
 ## Acknowledgements/ References
 
