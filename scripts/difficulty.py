@@ -76,7 +76,8 @@ def team_difficulty(gameweek_A=gameweek+1, gameweek_B=gameweek+4):
     return {'teams_list': output_df, "totals": output_df_sums}
                             
 
-
+data = team_difficulty()
+print(data["totals"])
 
 
 

@@ -47,7 +47,7 @@ def get_understat_players(season="2021", full_season = True, n_last_matches = "4
 
 gameweek = get_current_gameweek()
 datestr = dt.datetime.today().strftime("%Y%m%d")
-data = get_understat_players(season="2021", full_season = True, n_last_matches = "4")
+data = get_understat_players(season="2022", full_season = True, n_last_matches = "4")
 data.to_csv("../data/undestat_full_gw{}_{}.csv".format(int(gameweek),datestr))
 
 

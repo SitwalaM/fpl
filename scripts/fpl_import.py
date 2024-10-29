@@ -27,9 +27,11 @@ def combine_player_teams(raw_json, min_minutes = 1):
     teams_df = pd.DataFrame(raw_json['teams'])
 
     # cut some of the info in the elements df
+    
     slim_elements_df = elements_df[["id",'second_name','team','element_type','selected_by_percent',
                                    'now_cost','minutes','transfers_in','value_season','total_points',
-                                   'ict_index', "web_name", "form"]].copy()
+                                   'ict_index',"expected_goals_per_90","expected_assists_per_90","expected_goal_involvements_per_90","expected_goals_conceded_per_90",
+                                   "web_name", "form"]].copy()
 
     # get positions from the elements_types dataframe
     slim_elements_df['position'] = slim_elements_df.element_type.map(elements_types_df.set_index('id').singular_name)
@@ -87,7 +89,8 @@ def compute_player_variation(all_players_hist, min_minutes = 1, top_number = 100
     input: all players historical data, minimum minutes and how many players to filter_out(top_number)
     output: dataframe with player FPL average points and coefficient of variation
     '''
-    
+    # filter columns to include --> elemnt, minutes, total_points
+    all_players_hist = all_players_hist[["element", "minutes", "total_points"]]
     grouped_mean  = all_players_hist.loc[all_players_hist.minutes>0].groupby(by = "element").mean().total_points
     grouped_std = all_players_hist.loc[all_players_hist.minutes>0].groupby(by = "element").std().total_points
     player_variation = pd.DataFrame({"Mean": grouped_mean, "Std": grouped_std })
